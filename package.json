@@ -1,0 +1,20 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "cdk/main.js"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "aws-cdk": "2.154.1",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.154.1",
+    "constructs": "^10.0.0"
+  }
+}
